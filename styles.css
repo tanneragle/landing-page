@@ -133,6 +133,11 @@ img {
 
 .quote {
     background-color: #e5e7eb;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .quote-text {
@@ -140,6 +145,18 @@ img {
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
+}
+
+.quote-container {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 650px;
+    gap: 18px;
+}
+
+.quote-name {
+    align-self: flex-end;
+    font-size: 18px;
 }
 
 
