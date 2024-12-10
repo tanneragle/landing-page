@@ -1,5 +1,6 @@
 /* Styles! */
 
+
 /* Global Styles */
 body {
     font-family: 'Roboto', sans-serif;
@@ -26,6 +27,12 @@ img {
     width: 25%;
 }
 
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
 /* Header Styles */
 
 .logo {
@@ -47,6 +54,7 @@ img {
     color: #e5e7eb;
 }
 
+
 /* Info Styles */
 
 .info {
@@ -59,14 +67,23 @@ img {
     font-size: 900;
 }
 
+
 /* Quote Styles */
 
 .quote {
     background-color: #e5e7eb;
 }
 
-blockquote {
+.quote-text {
     font-size: 36px;
     font-style: italic;
+    font-weight: lighter;
     color: #1F2937;
+}
+
+
+/* Footer Styles */
+
+.footer {
+    color: white;
 }
