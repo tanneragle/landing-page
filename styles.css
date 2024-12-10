@@ -183,9 +183,13 @@ img {
     gap: 40px;
 }
 
+.cta h4 {
+    font-size: 18px;
+}
+
 .cta p {
     font-weight: lighter;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 
