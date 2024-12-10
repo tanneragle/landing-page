@@ -159,6 +159,36 @@ img {
     font-size: 18px;
 }
 
+/* CTA Styles */
+
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    color: white;
+}
+
+.cta-button button {
+    border: 2px solid white;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 800px;
+    background-color: #3882f6;
+    padding: 30px 60px;
+    border-radius: 5px;
+    gap: 40px;
+}
+
+.cta p {
+    font-weight: lighter;
+    font-size: 14px;
+}
+
 
 /* Footer Styles */
 
