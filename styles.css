@@ -2,10 +2,16 @@
 
 
 /* Global Styles */
+
+*{
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header,
@@ -30,16 +36,30 @@ img {
 a {
     font-size: 18px;
     color: #e5e7eb;
+    text-decoration: none;
 }
 
+section {
+    width: 100%;
+}
 
 /* Header Styles */
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 18px 0;
+}
 
 .logo {
     font-size: 24px;
     color: #f9faf8;
 }
 
+.navigation {
+    display: flex;
+    gap: 32px;
+}
 
 /* Hero Styles */
 
