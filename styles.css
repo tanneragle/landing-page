@@ -1,3 +1,6 @@
+/* Styles! */
+
+/* Global Styles */
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -8,4 +11,62 @@ body {
 .hero,
 .footer {
     background-color: #1F2937;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+img {
+    height: auto;
+    width: 25%;
+}
+
+/* Header Styles */
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+
+/* Hero Styles */
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* Info Styles */
+
+.info {
+    background-color: white;
+}
+
+.info-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-size: 900;
+}
+
+/* Quote Styles */
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
